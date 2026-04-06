@@ -64,6 +64,24 @@ The following GitHub workflow is mandatory to ensure project stability:
 
 ---
 
+
+##  Project Progress & Features
+
+### Module 1: Course Profile 
+This module handles the management of academic course data using direct console input/output.
+* **Add Course Profile**: Allows manual input of course name, code, credit hours, summary, and MS Teams links.
+* **Search Course**: Implements a **Linear Search** algorithm to find specific courses by their unique Course Code.
+* **View All Courses**: Displays all registered course profiles in a formatted, organized list.
+* **Edit Course**: Enables updating of course information (Name, Credit Hours, Summary, Link) while keeping the Course Code as a fixed identifier.
+* **Delete Course**: Removes course records from the system after a mandatory user confirmation step.
+
+---
+
+## Technical Implementation (Lab 3 & 4)
+* **Language**: Java.
+* **Data Storage**: Utilizes `ArrayList` for dynamic storage of `Course` objects.
+* **Error Handling**: Includes input validation to prevent `InputMismatchException` and checks for "Course not found" scenarios.
+
 ## File Header Template
 Every code file must start with the following standard header comment block:
 
@@ -73,3 +91,4 @@ Every code file must start with the following standard header comment block:
  * Author: [Your Name]
  * Description: [Brief description of the file's purpose]
  */
+
